@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NikoMiko Apps</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="stars"></div>
+    <div class="twinkling"></div>
+    
+    <header>
+        <div class="container">
+            <div class="logo-container">
+                <img src="assets/logo.png" alt="NikoMiko Logo" class="logo-image">
+                <span class="logo-text">NikoMiko</span>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#apps">Apps</a></li>
+                    <li><a href="#technologies">Technologies</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero" id="hero">
+        <div class="container">
+            <div class="hero-content">
+                <div class="hero-logo">
+                    <img src="assets/logo.png" alt="NikoMiko Logo" class="hero-logo-image">
+                </div>
+                <h1 class="parallax-title">NikoMiko Apps</h1>
+                <p class="parallax-subtitle">Development team creating the future</p>
+            </div>
+        </div>
+    </section>
+
+    <section class="about" id="about">
+        <div class="container">
+            <h2 class="section-title">About Us</h2>
+            <div class="about-content">
+                <p>NikoMiko Apps is a team of talented developers united by a common goal of creating innovative and user-friendly applications. With our passion for technology and design, we strive to deliver exceptional digital experiences for our users.</p>
+                <div class="tech-icons">
+                    <div class="icon">
+                        <i class="tech-icon" data-icon="mobile"></i>
+                        <span>Mobile</span>
+                    </div>
+                    <div class="icon">
+                        <i class="tech-icon" data-icon="web"></i>
+                        <span>Web</span>
+                    </div>
+                    <div class="icon">
+                        <i class="tech-icon" data-icon="desktop"></i>
+                        <span>Desktop</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="apps" id="apps">
+        <div class="container">
+            <h2 class="section-title">Our Apps</h2>
+            <div class="coming-soon">
+                <h3>Coming Soon</h3>
+                <p>We're working on something amazing. Stay tuned!</p>
+                <div class="countdown">
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="countdown-days">7</span>
+                        <span class="countdown-label">Days</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="countdown-hours">00</span>
+                        <span class="countdown-label">Hours</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="countdown-minutes">00</span>
+                        <span class="countdown-label">Minutes</span>
+                    </div>
+                    <div class="countdown-item">
+                        <span class="countdown-number" id="countdown-seconds">00</span>
+                        <span class="countdown-label">Seconds</span>
+                    </div>
+                </div>
+            </div>
+            <!-- 
+            <div class="app-grid">
+                <div class="app-card">
+                    <div class="app-icon"></div>
+                    <h3>App 1</h3>
+                    <p>Brief description of the app and its main features.</p>
+                    <a href="#" class="app-link">Learn More</a>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon"></div>
+                    <h3>App 2</h3>
+                    <p>Brief description of the app and its main features.</p>
+                    <a href="#" class="app-link">Learn More</a>
+                </div>
+                <div class="app-card">
+                    <div class="app-icon"></div>
+                    <h3>App 3</h3>
+                    <p>Brief description of the app and its main features.</p>
+                    <a href="#" class="app-link">Learn More</a>
+                </div>
+            </div>
+            -->
+        </div>
+    </section>
+
+    <section class="technologies" id="technologies">
+        <div class="container">
+            <h2 class="section-title">Technologies We Use</h2>
+            <div class="technologies-grid">
+                <div class="technology-item">
+                    <div class="technology-icon" data-tech="flutter"></div>
+                    <h3>Flutter</h3>
+                    <p>Cross-platform mobile development</p>
+                </div>
+                <div class="technology-item">
+                    <div class="technology-icon" data-tech="react"></div>
+                    <h3>React Native</h3>
+                    <p>Building native mobile apps</p>
+                </div>
+                <div class="technology-item">
+                    <div class="technology-icon" data-tech="node"></div>
+                    <h3>Node.js</h3>
+                    <p>Server-side JavaScript runtime</p>
+                </div>
+                <div class="technology-item">
+                    <div class="technology-icon" data-tech="python"></div>
+                    <h3>Python</h3>
+                    <p>Data processing and backend services</p>
+                </div>
+                <div class="technology-item">
+                    <div class="technology-icon" data-tech="aws"></div>
+                    <h3>AWS</h3>
+                    <p>Cloud infrastructure and services</p>
+                </div>
+                <div class="technology-item">
+                    <div class="technology-icon" data-tech="firebase"></div>
+                    <h3>Firebase</h3>
+                    <p>Mobile and web application platform</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- 
+    <section class="team" id="team">
+        <div class="container">
+            <h2 class="section-title">Our Team</h2>
+            <div class="team-grid">
+                <div class="team-member">
+                    <div class="member-avatar"></div>
+                    <h3>Alexey Petrov</h3>
+                    <p class="member-role">Lead Developer</p>
+                    <p class="member-bio">Experienced developer with over 10 years of experience in creating mobile and web applications.</p>
+                    <div class="member-social">
+                        <a href="#" class="social-icon" data-platform="github">GitHub</a>
+                        <a href="#" class="social-icon" data-platform="linkedin">LinkedIn</a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar"></div>
+                    <h3>Maria Ivanova</h3>
+                    <p class="member-role">UI/UX Designer</p>
+                    <p class="member-bio">Creative designer with a deep understanding of user experience and modern design trends.</p>
+                    <div class="member-social">
+                        <a href="#" class="social-icon" data-platform="dribbble">Dribbble</a>
+                        <a href="#" class="social-icon" data-platform="behance">Behance</a>
+                    </div>
+                </div>
+                <div class="team-member">
+                    <div class="member-avatar"></div>
+                    <h3>Dmitry Sokolov</h3>
+                    <p class="member-role">Backend Developer</p>
+                    <p class="member-bio">Specialist in server technologies and databases with experience in creating high-load systems.</p>
+                    <div class="member-social">
+                        <a href="#" class="social-icon" data-platform="github">GitHub</a>
+                        <a href="#" class="social-icon" data-platform="twitter">Twitter</a>
+                    </div>
+                </div>
+            </div>
+            <div class="team-contact">
+                <h3>Get in Touch</h3>
+                <p>If you have any questions or suggestions, please write to us:</p>
+                <a href="mailto:team@nikomiko.com" class="contact-email">team@nikomiko.com</a>
+                <div class="social-links">
+                    <a href="#" class="social-link" data-platform="twitter">Twitter</a>
+                    <a href="#" class="social-link" data-platform="github">GitHub</a>
+                    <a href="#" class="social-link" data-platform="linkedin">LinkedIn</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    -->
+
+    <section class="contact" id="contact">
+        <div class="container">
+            <h2 class="section-title">Contact Us</h2>
+            <div class="contact-content">
+                <p>Have a question or want to work with us? Feel free to reach out:</p>
+                <a href="mailto:team@nikomiko.com" class="contact-email">team@nikomiko.com</a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2025 NikoMiko Apps. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
