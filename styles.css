@@ -437,6 +437,21 @@ section {
     opacity: 1;
 }
 
+.app-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 25px;
+    margin-bottom: 25px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+    transition: var(--transition);
+}
+
+.app-card:hover .app-image {
+    transform: scale(1.1) rotate(5deg);
+    box-shadow: 0 15px 30px rgba(138, 43, 226, 0.2);
+}
+
 .app-icon {
     width: 100px;
     height: 100px;
